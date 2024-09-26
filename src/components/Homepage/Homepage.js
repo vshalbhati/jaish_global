@@ -48,8 +48,9 @@ const Content = () => (
       <div className="content-text">
         <h2>Jaish Global Private Limited</h2>
         <p>
-          We are dedicated to providing top-notch services and innovative solutions for our clients.
-          With years of experience and a team of experts, we're ready to tackle any challenge.
+At Jaish Global Tech Pvt. Ltd., we have been redefining the landscape of Cyber Security and Digital Transformation since our establishment in 2019. As a leading Systems Integrator, we leverage the power of Machine Learning and Artificial Intelligence to deliver innovative, high-quality technology solutions that empower our clients.
+Our unwavering commitment to excellence has made us a trusted partner in safeguarding businesses against the dynamic landscape of cyber threats while maximizing enterprise value through our cutting-edge AI tools and services. We are dedicated to continuous learning and innovation, ensuring we remain at the forefront of industry advancements.
+Discover how our proactive approach and dynamic culture can help your organization thrive in today’s digital environment.
         </p>
         <motion.button
           whileHover={{ scale: 1.05 }}
@@ -210,7 +211,7 @@ const Footer = () => (
         <ul className="contacticons">
           <li className="contacticons"><Phone size={18} /> (123) 456-7890</li>
           <li className="contacticons"><Mail size={18} /> info@jaishglobal.in</li>
-          <li className="contacticons"><MapPin size={18} /> 449, 4th floor JMD Megapolis, Sector-48, Gurugram, Haryana - 122018</li>
+          <li className="contacticons"><MapPin size={18} /> 449, 4th floor JMD Megapolis, Sector-48, Sohna Road, Gurugram, Haryana - 122018</li>
         </ul>
       </div>
       <div className="footer-section">
