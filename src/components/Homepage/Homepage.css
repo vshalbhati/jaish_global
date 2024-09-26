@@ -1,0 +1,347 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  
+  .company-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .desktop-nav {
+    display: none;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #63b3ed;
+  }
+  
+  .mobile-menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .mobile-nav {
+    background-color: #2d3748;
+    padding: 1rem;
+  }
+  
+  .mobile-nav-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0;
+  }
+  
+  .content-section {
+    padding: 3rem 0;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content-text {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .content-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #3182ce;
+  }
+  
+  .content-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form-section {
+    background-color: #f7fafc;
+    padding: 3rem 0;
+    color: white;
+  }
+  .contact-form-section .container{
+    width: "90%";
+    background-color: #ffffff;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+  .contactformsideimage{
+    height: 550px;
+    width: 550px;
+    padding: 40px;
+  }
+  .contact-form-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    background-image: url('../../assets//imgs/contact_form_bg_1.jpg');
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.25rem;
+  }
+  
+  .submit-button {
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #3182ce;
+  }
+  
+  .footer {
+    background-color: #1a202c;
+    color: white;
+    padding: 2rem 0 1rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-bottom: 1rem;
+    min-width: 200px;
+
+  }
+  
+  .footer-logo {
+    max-width: 300px;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-section a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section a:hover {
+    color: #63b3ed;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #2d3748;
+  }
+
+  .file-upload-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .file-upload-label:hover {
+    background-color: #edf2f7;
+  }
+  
+  .file-upload-label input[type="file"] {
+    display: none;
+  }
+
+  .success-message {
+    color: #2f855a;
+    background-color: #c6f6d5;
+    border: 1px solid #9ae6b4;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: #c53030;
+    background-color: #fed7d7;
+    border: 1px solid #feb2b2;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    top: 100%;
+    left: 0;
+    background-color: rgb(165, 111, 111);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: grid;
+  }
+  
+  .mobile-dropdown {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  
+  .mobile-nav-link {
+    cursor: pointer;
+  }
+  .contacticons{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+  }
+  
+  @media (min-width: 768px) {
+    .desktop-nav {
+      display: flex;
+    }
+  
+    .mobile-menu-button {
+      display: none;
+    }
+  
+    .content-container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .content-text {
+      text-align: left;
+      margin-bottom: 0;
+      margin-right: 2rem;
+      flex: 1;
+    }
+  
+    .content-image {
+      flex: 1;
+    }
+  }
