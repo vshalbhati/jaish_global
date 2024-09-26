@@ -32,8 +32,9 @@ const Header = () => {
           </div>
   
           <nav className="desktop-nav">
-            <a onClick={() => navigate('/about')} className="nav-link">Home</a>
+            <a onClick={() => navigate('/')} className="nav-link">Home</a>
 
+            <a onClick={() => navigate('/about')} className="nav-link">About Us</a>
   
             <div className="nav-link dropdown">
               <a className="nav-link">Products</a>
@@ -45,7 +46,7 @@ const Header = () => {
             </div>
   
             <div className="nav-link dropdown">
-              <a className="nav-link">Services</a>
+              <a onClick={() => navigate('/services')} className="nav-link">Services</a>
               <div className="dropdown-menu">
                 <a>Service 1</a>
                 <a>Service 2</a>

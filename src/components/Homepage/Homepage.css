@@ -28,12 +28,13 @@ body {
   .logo-container {
     display: flex;
     align-items: center;
+    margin-left:-100px
   }
   
   .logo {
     width: 150px;
     height: 80px;
-    margin-right: 10px;
+    margin-right: 120px;
   }
   
   .company-name {
@@ -46,7 +47,7 @@ body {
   }
   
   .nav-link {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin-left: 20px;
     transition: color 0.3s;
